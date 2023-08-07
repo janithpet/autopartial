@@ -1,0 +1,1 @@
+from autopartial.autopartial import autopartial
