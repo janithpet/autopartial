@@ -24,7 +24,7 @@ if __name__ == '__main__':
 	y = 20
 
 	add_10 = add(x)	# add(x): y -> x + y
-	print(always_add_10(y)) # 30
+	print(add_10(y)) # 30
 ```
 
 Here, the `add` function takes 2 arguments and returns its sum. You can now partially apply the argument `x` to `add` by calling `add(x)`. This returns a new function that takes only one argument `y` and returns  `x + y`.
