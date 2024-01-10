@@ -5,7 +5,7 @@ This is a simple library that provides a decorator that allows your to apply a f
 ## Installation
 After cloning this repository, you can install the package by running the following command in the root directory of the repository:
 ```bash
-pip install -e .
+pip install autopartial
 ```
 
 ## Usage and example
