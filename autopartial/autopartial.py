@@ -10,6 +10,6 @@ def autopartial(func):
 		if len(args) == num_args:
 			return func(*args)
 
-		return partial(func, *args)
+		return autopartial(partial(func, *args))
 
 	return wrapper
